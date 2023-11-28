@@ -1,0 +1,109 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #4DBFD9;
+}
+
+.container {
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+	margin: 100px 20% 10% 20%;
+	padding: 0px;
+	background-color: white;
+}
+
+.dock {
+	width: 100%;
+	margin: 0px;
+	letter-spacing: 3px;
+	background-color: #4D4D4D;
+	color: #9A9999;
+}
+
+.searchBar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.searchBar input {
+	width: 0px;
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.searchBar input:hover {
+	cursor: pointer;
+	width: auto;
+	border: none;
+	background-color: transparent;
+}
+
+.searchBar input:focus {
+	outline: none;
+	border: none;
+}
+
+.displayWeather {
+	display: flex;
+	align-items: center;
+	padding-bottom: 45px;
+}
+
+.weatherImage {
+	width: 35%;
+}
+
+.temperature {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.temperatureDisplay {
+	margin-bottom: 5px;
+	font-size: 70px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tempMaxMin {
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.weatherInformation {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+}
+
+.secondaryInfo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.sImage {
+	width: 30px;
+	height: 30px;
+}
+
+.wind, .pressure, .humidity {
+	font-size: 18px;
+}
+
+.temperature, .weatherInformation {
+  display: none;
+}
+
+.none {margin: 0px;}

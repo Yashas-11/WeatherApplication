@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="icon" href="Images/weatherIcon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="dock">
+            <pre class="none"> &#x2B24; &#x2B24; &#x2B24;</pre>
+        </div>
+        <div class="searchBar">
+            <p class="searchCity">
+                Right now in <span>
+                    <input type="text" placeholder="Enter City Name" class="cityInput" id="myInput">
+                </span><p class="cityName"></p>,<pre> </pre><p class="weatherDescription"></p>
+            </p>
+        </div>
+        <div class="displayWeather">
+            <img src="" alt="" class="weatherImage">
+            <div class="temperature">
+                <p class="temperatureDisplay"></p>
+                <div class="tempMaxMin">
+                    <p class="temperatureMinimum"><pre> </pre></p>
+                    <p class="temperatureMaximum"></p>
+                </div>
+            </div>
+            <div class="weatherInformation">
+                <div class="secondaryInfo">
+                    <img src="Images/wind.gif" alt="Wind" class="sImage"><pre> </pre>
+                    <p class="wind"></p>
+                </div>
+                <div class="secondaryInfo">
+                    <img src="Images/pressure.gif" alt="Pressure" class="sImage"><pre> </pre>
+                    <p class="pressure"></p>
+                </div>
+                <div class="secondaryInfo">
+                    <img src="Images/humidity.gif" alt="humidity" class="sImage"><pre> </pre>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
